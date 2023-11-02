@@ -1,0 +1,5 @@
+CREATE TABLE tokens_push (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    token VARCHAR(255) NOT NULL
+);
